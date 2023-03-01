@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>資管系系烤</title>
+</head>
+<body>
+  <h1>資管系系烤</h1>
+  <img src="https://www.mirrormedia.com.tw/assets/images/20220910131553-3b9098e2c0cad05b48ef1f4b530f467d-mobile.jpg" alt="烤肉聚會的圖片">
+  <p>歡迎來到資管系系烤！我們將在本學期舉辦一場盛大的烤肉聚會，讓大家可以放鬆身心，享受美食，認識新朋友。</p>
+  <h2>報名表單</h2>
+  <form action="1.php" method="post">
+    <label for="name">姓名：</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">電子郵件：</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">電話：</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="food">食物喜好：</label>
+    <select id="food" name="food" required>
+      <option value="meat">肉類</option>
+      <option value="vegetarian">素食</option>
+      <option value="other">其他</option>
+    </select><br><br>
+
+    <label for="message">留言：</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="提交">
+  </form>
+</body>
+</html>
